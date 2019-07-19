@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function people(name,age){
+                this.name=name;
+                this.age=age;
+                this.yearsuntillretire=yearsleft;
+            }
+            function yearsleft(){
+                var numyears=65-this.age;
+                return numyears;
+            }
+            var natalie=new people("Natalie Portman",23);
+        </script>
+    </head>
+    <body>
+        <script>
+            document.write(natalie.yearsuntillretire());
+        </script>
+    </body>
+</html>
