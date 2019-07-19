@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body onload="myFunction()">
+        <nav class="navbar navbar-dark bg-dark">
+              <h1 style="color: blanchedalmond">Road Accident Database Management System</h1>
+          </nav>
+          <div class="container" >
+            <div class="card" style="width: 70rem;">
+              <div class="card-body" style="background-color: lightgray">
+                <div class="form-group">
+                  <label for="age">Road No</label>
+                  <input type="text" class="form-control" id="no">
+                </div>
+                <label for="roadtype">Type of Road</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">National Highway</option>
+                  <option value="2">State Highway</option>
+                  <option value="3">Major Disticts Roads</option>
+                  <option value="4">Other District Roads</option>
+                  <option value="5">Village Roads</option>
+                  <option value="6">Arterial Roads</option>
+                  <option value="7">Sub Arterial Roads</option>
+                  <option value="8">Collector Roads</option>
+                  <option value="9">Local Street</option>
+                </select>   
+
+                <label for="roadtype">Junction Control</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Uncontrolled</option>
+                  <option value="2">Autocontrolled</option>
+                  <option value="3">Traffic Police</option>
+                 
+                  
+                </select>
+
+                <label for="junctiondetais" style="margin-top: 10px">Junction Condition</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Not at Junction  or within 20 meters</option>
+                  <option value="2">Crossroad</option>
+                  <option value="3">T or Staggered Junction </option>
+                  <option value="4">Mini Roundabout</option>
+                  <option value="5">Roundabout</option>
+                  <option value="6">Private Drive Enterence </option>
+                </select>
+             
+                <label for="junctiondetais" style="margin-top: 10px">Light Details</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Daylight</option>
+                  <option value="2">Darkness Lights Lit</option>
+                  <option value="3">Darkness Lights Lit </option>
+                 
+                </select>
+
+
+                <label for="junctiondetais" style="margin-top: 10px">Carriage Way</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Single Carriage Way</option>
+                  <option value="2">Double Carriage Way</option>
+                  <option value="3">Single Lane </option>
+                  </select>
+
+
+                  <label for="junctiondetais" style="margin-top: 10px">Road Surface Condition</label>
+                  <select class="browser-default custom-select">
+                    <option selected>select</option>
+                    <option value="1">Dry</option>
+                    <option value="2">Wet</option>
+                   
+                    </select>
+             
+             <button type="button"  onclick="window.location.href = 'frontpage.html';" style="margin-top: 15px" class="btn btn-primary btn-lg btn-block">Submit</button>
+            </div>
+            </div>
+            </div>
+    </body>
+</html>

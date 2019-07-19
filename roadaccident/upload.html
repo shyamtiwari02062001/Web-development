@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body onload="myFunction()">
+        <nav class="navbar navbar-dark bg-dark">
+              <h1 style="color: blanchedalmond">Road Accident Database Management System</h1>
+          </nav>
+          <div class="container" >
+            <div class="card" style="width: 70rem;">
+              <div class="card-body" style="background-color: lightgray">
+                <div class="form-group">
+                  <label for="age">Age of Driver</label>
+                  <input type="text" class="form-control" id="age">
+                </div>
+                <label for="sex">Sex of Driver</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                  <option value="3">Others</option>
+                </select>
+                <label for="damage" style="margin-top: 10px">Accident_Sevierity</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Slight</option>
+                  <option value="2">Serious</option>
+                  <option value="3">Fatal</option>
+                </select>
+             
+              <label for="area" style="margin-top: 10px">Accident_Area</label>
+              <select class="browser-default custom-select">
+                <option selected>select</option>
+                <option value="1">Local</option>
+                <option value="2">Rural</option>
+              </select>
+              <div class="form-group">
+                <label for="date" style="margin-top: 10px">Date</label>
+                <input type="text" class="form-control" id="demo">
+              </div>
+              <script>
+                function myFunction() {
+                document.getElementById('demo').value= Date();
+                }
+                </script>
+                 <label for="weather">Weather Condition</label>
+                 <select class="browser-default custom-select">
+                   <option selected>select</option>
+                   <option value="1">Raining no High Wind</option>
+                   <option value="2">Fine no High Wind</option>
+                   <option value="3">Raining High Wind</option>
+                   <option value="4">High Wind</option>
+                   <option value="5">Snowfall</option>
+                 </select>
+                 <button type="button"  onclick="window.location.href = 'next1.html';" style="margin-top: 15px" class="btn btn-primary btn-lg btn-block">NEXT</button>
+            </div>
+            </div>
+            </div>
+    </body>
+</html>

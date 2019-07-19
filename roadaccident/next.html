@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+              <h1 style="color: blanchedalmond">Road Accident Database Management System</h1>
+          </nav>
+          <div class="container" >
+            <div class="card" style="width: 70rem;">
+              <div class="card-body" style="background-color: lightgray">
+                <div class="form-group">
+                  <label for="no">Vehicle No</label>
+                  <input type="text" class="form-control" id="no">
+                  <label for="age">Vehicle Age</label>
+                  <input type="text" class="form-control" id="vage">
+                </div>
+                <label for="type" style="margin-top: 5px">Vehicle Type</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Two Wheeler</option>
+                  <option value="2">Three Wheeler</option>
+                  <option value="3">Four Wheeler</option>
+                  <option value="4">More Then Four Wheeler</option>
+
+                </select>
+                <label for="made" style="margin-top: 5px">Vehicle made up of</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Tata Motors</option>
+                  <option value="2">Mahindra & Mahindra LTD</option>
+                  <option value="3">Maruti Suzuki</option>
+                  <option value="4">Hero Motocop LTD</option>
+                  <option value="5">Bajaj Auto LTD</option>
+                  <option value="6">Toyoto Moto Corporation</option>
+                  <option value="7">Chervrolet</option>
+                  <option value="8">Honda Motor CO LTD</option>
+                  <option value="9">Ford Motors Company</option>
+                </select>
+                <label for="fuel" style="margin-top: 10px">Fuel Type</label>
+                <select class="browser-default custom-select">
+                  <option selected>select</option>
+                  <option value="1">Petrol</option>
+                  <option value="2">Deisel</option>
+                  <option value="3">CNG</option>
+                </select>
+             
+            
+             
+                 <label for="movement">Vehicle Movement</label>
+                 <select class="browser-default custom-select">
+                   <option selected>select</option>
+                   <option value="1">Overtaking</option>
+                   <option value="2">Turning Left</option>
+                   <option value="3">Turning Right</option>
+                   <option value="4">Waiting to go</option>
+                   <option value="5">Slowing or Stooping</option>
+                 </select>
+                 <label for="impact">First Point of Impact</label>
+                 <select class="browser-default custom-select">
+                   <option selected>select</option>
+                   <option value="1">Left</option>
+                   <option value="2">Right</option>
+                   <option value="3">Front</option>
+                   <option value="4">Back</option>
+                 </select>
+                 <button type="button"  onclick="window.location.href = 'next.html';" style="margin-top: 15px" class="btn btn-primary btn-lg btn-block">NEXT</button>
+            </div>
+            </div>
+            </div>
+    </body>
+</html>
